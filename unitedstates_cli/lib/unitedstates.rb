@@ -1,4 +1,7 @@
 require_relative "./unitedstates/version"
+require_relative './unitedstates/cli'
+require_relative './unitedstates/scraper'
+require_relative './unitedstates/usstates'
 
 module Unitedstates_cli::CLI
   class Error < StandardError; end
@@ -6,4 +9,4 @@ module Unitedstates_cli::CLI
   #test
 end
 
-require_relative './unitedstates/cli'
+#require_relative './unitedstates/cli'

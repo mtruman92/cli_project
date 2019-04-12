@@ -12,7 +12,7 @@ id = 0
 
 state_links.collect do |states|
 id += 1
-s = States::UnitedStates.new
+s = Unitedstates::UnitedStates.new
 s.id = id
 s.description =
 s.date_of_statehood =
