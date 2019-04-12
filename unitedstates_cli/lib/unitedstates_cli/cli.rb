@@ -1,6 +1,6 @@
 #CLI Controller
 
-class WeatherCli::CLI 
+class States::CLI 
   
   def call 
     greet_user
