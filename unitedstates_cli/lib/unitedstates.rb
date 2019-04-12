@@ -1,6 +1,6 @@
 require_relative "./unitedstates_cli/version"
 
-module States
+module Unitedstates_cli::CLI
   class Error < StandardError; end
   # Your code goes here...
   #test

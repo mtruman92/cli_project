@@ -1,4 +1,4 @@
-class States::Scraper
+class Unitedstates_cli::Scraper
 
 def initalize(url = https://www.history.com/topics/us-states)
 @url = url 

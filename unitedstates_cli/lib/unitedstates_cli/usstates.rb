@@ -1,4 +1,4 @@
-class States::UnitedStates
+class Unitedstates_cli::UnitedStates
 
 attr_accessor :state, :date_entry, :capital :population :size, :href
 

@@ -1,6 +1,6 @@
 #CLI Controller
 
-class States::CLI 
+class Unitedstates_cli::CLI
   
   def call 
     greet_user
