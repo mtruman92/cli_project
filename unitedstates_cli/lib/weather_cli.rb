@@ -1,4 +1,4 @@
-require_relative "./weather_cli/version"
+require_relative "./unitedstates_cli/version"
 
 module WeatherCli
   class Error < StandardError; end
@@ -6,4 +6,4 @@ module WeatherCli
   #test
 end
 
-require_relative './weather_cli/cli'
+require_relative './unitedstates_cli/cli'
