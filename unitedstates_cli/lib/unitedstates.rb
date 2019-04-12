@@ -1,6 +1,6 @@
 require_relative "./unitedstates_cli/version"
 
-module WeatherCli
+module States
   class Error < StandardError; end
   # Your code goes here...
   #test
