@@ -3,10 +3,15 @@
 class WeatherCli::CLI 
   
   def call 
-    puts "Welcome to the US States Information Center:"
+    greet_user
     navigation
     welcome
     goodbye
+  end
+  
+  def greet_user
+    puts "Welcome to the US States Information Center"
+    puts "Choose a state to get started:"
   end
   
   def navigation
@@ -65,8 +70,7 @@ class WeatherCli::CLI
 end
 
 def welcome
-  puts "Choose a state to get started!"
-  puts "Enter the state's corresponding number to see state details or type exit:"
+   puts "Enter the state's corresponding number to see state details or type exit:"
   input = nil 
   while input != "exit"
   puts "Enter the state's corresponding number to see state details or type exit:"
