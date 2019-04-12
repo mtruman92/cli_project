@@ -1,4 +1,4 @@
-class Unitedstates_cli::Scraper
+class Unitedstates::Scraper
 
 def initalize(url = https://www.history.com/topics/us-states)
 @url = url 
@@ -30,7 +30,7 @@ population =
 size =
 interesting_facts =
 
-#binding.pry
+binding.pry
 
 #Returns an updated title of the website
 def get_title

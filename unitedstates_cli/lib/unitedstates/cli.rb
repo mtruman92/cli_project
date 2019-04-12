@@ -1,6 +1,6 @@
 #CLI Controller
 
-class Unitedstates_cli::CLI
+#class Unitedstates_cli::CLI
   
   def call 
     greet_user
@@ -87,4 +87,4 @@ end
 def goodbye
   puts "Have a fantastic day!"
   end
-end 
+  #end 

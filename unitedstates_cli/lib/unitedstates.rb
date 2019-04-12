@@ -1,4 +1,4 @@
-require_relative "./unitedstates_cli/version"
+require_relative "./unitedstates/version"
 
 module Unitedstates_cli::CLI
   class Error < StandardError; end
@@ -6,4 +6,4 @@ module Unitedstates_cli::CLI
   #test
 end
 
-require_relative './unitedstates_cli/cli'
+require_relative './unitedstates/cli'
